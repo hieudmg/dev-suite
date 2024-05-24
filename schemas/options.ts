@@ -22,3 +22,10 @@ const optionsSchema = z.object({
 export default optionsSchema;
 export type Options = z.infer<typeof optionsSchema>;
 export type Profile = z.infer<typeof profileSchema>;
+
+export const defaultOptions: Options = {
+  reloader: {
+    enabled: true,
+    profiles: [],
+  },
+};

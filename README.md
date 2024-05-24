@@ -1,33 +1,27 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# DEV Suite
 
-## Getting Started
+Browser extension for web developers. Built with [Plasmo](https://docs.plasmo.com/).
 
-First, run the development server:
+## Features
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+- Dynamic CSS reloader with user-friendly configuration
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+## Upcoming features
 
-You can start editing the popup by modifying `index.tsx`. It should auto-update as you make changes. To add an options page, simply add a `index.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+- WYSIWYG editor converter for textarea elements
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+## Building the extension
 
-## Making production build
-
-Run the following:
+First, install the dependencies using command:
 
 ```bash
-pnpm build
-# or
-npm run build
+pnpm install
 ```
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+## Build the extension
 
-## Submit to the webstores
+For Firefox:
 
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+```bash
+pnpm build:firefox
+```

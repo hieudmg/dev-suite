@@ -1,16 +1,9 @@
 import { Card, Checkbox, Flex, Form, Input } from 'antd';
-import { getDefaultsForSchema } from 'zod-defaults';
-
-import { useStorage } from '@plasmohq/storage/dist/hook';
 
 import AddProfileAttributeButton from '~options/profiles/addProfileAttributeButton';
 import AddProfileButton from '~options/profiles/addProfileButton';
-import AddProfileExcludeButton from '~options/profiles/addProfileExcludeButton';
-import AddProfileMatchButton from '~options/profiles/addProfileMatchButton';
 import DeleteProfileAttributeButton from '~options/profiles/deleteProfileAttributeButton';
 import DeleteProfileButton from '~options/profiles/deleteProfileButton';
-import DeleteProfileExcludeButton from '~options/profiles/deleteProfileExcludeButton';
-import DeleteProfileMatchButton from '~options/profiles/deleteProfileMatchButton';
 
 export default function Profiles() {
   return (

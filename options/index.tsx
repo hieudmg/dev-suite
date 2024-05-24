@@ -1,16 +1,14 @@
 import { Form, Tabs } from 'antd';
 import { useEffect } from 'react';
-import { getDefaultsForSchema } from 'zod-defaults';
 
 import { useStorage } from '@plasmohq/storage/dist/hook';
 
 import Profiles from '~options/profiles/profiles';
-import optionsSchema from '~schemas/options';
+import { defaultOptions } from '~schemas/options';
 import { ThemeProvider } from '~theme';
 
 function Options() {
-  const defaultConfig = getDefaultsForSchema(optionsSchema);
-  const [options, setOptions] = useStorage('options', defaultConfig);
+  const [options, setOptions] = useStorage('options', defaultOptions);
   const [form] = Form.useForm();
   useEffect(() => {
     form.setFieldsValue(options);

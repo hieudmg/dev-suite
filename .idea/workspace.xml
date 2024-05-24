@@ -4,20 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3e1a16-0e49-4e38-8a15-bbf09f1c3442" name="Changes" comment="">
+    <list default="true" id="ca3e1a16-0e49-4e38-8a15-bbf09f1c3442" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/profiles/addProfileAttributeButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/addProfileAttributeButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/profiles/addProfileButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/addProfileButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/profiles/deleteProfileAttributeButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/deleteProfileAttributeButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/profiles/deleteProfileButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/deleteProfileButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/profiles/profiles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/profiles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/popup/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/options.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/theme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -42,9 +51,9 @@
     "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "20.12.1",
-    "javascript.nodejs.core.library.typings.version": "20.12.8",
-    "last_opened_file_path": "D:/Drive/Code/firefox/dev-suite/options/profiles",
+    "javascript.nodejs.core.library.configured.version": "20.13.1",
+    "javascript.nodejs.core.library.typings.version": "20.12.12",
+    "last_opened_file_path": "D:/Drive/Code/firefox/dev-suite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -147,12 +156,28 @@
       <workItem from="1714093258463" duration="1863000" />
       <workItem from="1714095199792" duration="10317000" />
       <workItem from="1714113016079" duration="12187000" />
-      <workItem from="1714634584131" duration="14745000" />
+      <workItem from="1714634584131" duration="17956000" />
+      <workItem from="1716534948857" duration="256000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714703150507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714703150507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,13 +1,11 @@
 import { Button } from 'antd';
-import { getDefaultsForSchema } from 'zod-defaults';
 
 import { useStorage } from '@plasmohq/storage/dist/hook';
 
-import optionsSchema from '~schemas/options';
+import { defaultOptions } from '~schemas/options';
 
 export default function AddProfileButton() {
-  const defaultConfig = getDefaultsForSchema(optionsSchema);
-  const [options, setOptions] = useStorage('options', defaultConfig);
+  const [options, setOptions] = useStorage('options', defaultOptions);
   return (
     <Button
       size="small"

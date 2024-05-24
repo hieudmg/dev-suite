@@ -1,9 +1,8 @@
 import { Button } from 'antd';
-import { getDefaultsForSchema } from 'zod-defaults';
 
 import { useStorage } from '@plasmohq/storage/dist/hook';
 
-import optionsSchema from '~schemas/options';
+import { defaultOptions } from '~schemas/options';
 
 export default function DeleteProfileAttributeButton({
   profileIndex,
@@ -14,8 +13,7 @@ export default function DeleteProfileAttributeButton({
   attributeIndex: number;
   attributeName: 'matches' | 'excludes' | 'siteMatches';
 }) {
-  const defaultConfig = getDefaultsForSchema(optionsSchema);
-  const [options, setOptions] = useStorage('options', defaultConfig);
+  const [options, setOptions] = useStorage('options', defaultOptions);
 
   return (
     <Button
