@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3e1a16-0e49-4e38-8a15-bbf09f1c3442" name="Changes" comment="Initial commit">
+    <list default="true" id="ca3e1a16-0e49-4e38-8a15-bbf09f1c3442" name="Changes" comment="First version commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/profiles/addProfileAttributeButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/addProfileAttributeButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/profiles/addProfileButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/addProfileButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/profiles/deleteProfileAttributeButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/deleteProfileAttributeButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/profiles/deleteProfileButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/deleteProfileButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/profiles/profiles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/options/profiles/profiles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/options.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/theme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +35,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "20.13.1",
-    "javascript.nodejs.core.library.typings.version": "20.12.12",
-    "last_opened_file_path": "D:/Drive/Code/firefox/dev-suite",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "npm.build:firefox.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.dev:firefox.executor": "Run",
-    "npm.start:firefox.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Drive\\Code\\firefox\\dev-suite\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "D:\\Drive\\Code\\firefox\\dev-suite\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.13.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.12.12&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Drive/Code/firefox/dev-suite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.build:firefox.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev:firefox.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start:firefox.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Drive\\Code\\firefox\\dev-suite\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Drive\\Code\\firefox\\dev-suite\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Drive\Code\firefox\dev-suite\options\profiles" />
@@ -157,7 +147,7 @@
       <workItem from="1714095199792" duration="10317000" />
       <workItem from="1714113016079" duration="12187000" />
       <workItem from="1714634584131" duration="17956000" />
-      <workItem from="1716534948857" duration="256000" />
+      <workItem from="1716534948857" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -167,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714703150507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First version commit">
+      <option name="closed" value="true" />
+      <created>1716535272414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716535272414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +175,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="First version commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First version commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
