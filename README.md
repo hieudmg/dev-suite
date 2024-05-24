@@ -20,6 +20,8 @@ pnpm install
 
 ## Build the extension
 
+Using node v20
+
 For Firefox:
 
 ```bash
